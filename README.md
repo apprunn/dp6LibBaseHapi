@@ -1,4 +1,4 @@
-# dp6LibBaseHapi [![CircleCI](https://circleci.com/gh/eperedo/base-hapi.svg?style=svg)](https://circleci.com/gh/eperedo/base-hapi)
+# dp6LibBaseHapi [![CircleCI]](https://circleci.com/gh/apprunn/dp6LibBaseHapi)
 
 > A base hapi configuration for my new API projects
 
