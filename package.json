@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      "base-hapi@1.1.0",
+      "/Users/apprunnback/Documents/Projects/dp6ApiProducts"
+    ]
+  ],
+  "_from": "base-hapi@1.1.0",
+  "_id": "base-hapi@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lYq4cGl7EBK1u++5h4KjVs4EEdXh3jkxBY0oycHdEMFee4jezQ6ysqg7LQvGbcmaOzcDs62LPkYnIychFGxhKA==",
+  "_location": "/base-hapi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "base-hapi@1.1.0",
+    "name": "base-hapi",
+    "escapedName": "base-hapi",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/base-hapi/-/base-hapi-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "/Users/apprunnback/Documents/Projects/dp6ApiProducts",
+  "author": {
+    "name": "Eduardo Peredo Rivero",
+    "email": "jrperedo@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eperedo/base-hapi/issues"
+  },
+  "dependencies": {
+    "catbox-redis": "4.1.0",
+    "glue": "5.0.0",
+    "hapi": "17.5.2",
+    "hapi-auth-bearer-token": "6.0.1",
+    "hapi-raven": "7.0.0"
+  },
+  "description": "A base hapi configuration for my new API projects",
+  "engines": {
+    "node": ">= 8.10.0",
+    "npm": ">= 6.1.0"
+  },
+  "homepage": "https://github.com/eperedo/base-hapi#readme",
+  "keywords": [
+    "hapi",
+    "glue",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "main": "src/server.js",
+  "name": "base-hapi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eperedo/base-hapi.git"
+  },
+  "scripts": {
+    "test": "node src/server.test.js"
+  },
+  "version": "1.1.0"
+}
