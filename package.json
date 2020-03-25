@@ -1,64 +1,35 @@
 {
-  "_args": [
-    [
-      "dp6-lic-base-hapi@1.1.0",
-      "/Users/apprunnback/Documents/Projects/dp6LibBaseHapi"
-    ]
-  ],
-  "_development": true,
-  "_from": "dp6-lic-base-hapi@1.1.0",
-  "_id": "dp6-lic-base-hapi@1.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-lYq4cGl7EBK1u++5h4KjVs4EEdXh3jkxBY0oycHdEMFee4jezQ6ysqg7LQvGbcmaOzcDs62LPkYnIychFGxhKA==",
-  "_location": "/dp6-lic-base-hapi",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "dp6-lic-base-hapi@1.1.0",
-    "name": "dp6-lic-base-hapi",
-    "escapedName": "dp6-lic-base-hapi",
-    "rawSpec": "1.1.0",
-    "saveSpec": null,
-    "fetchSpec": "1.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/dp6-lic-base-hapi/-/dp6-lic-base-hapi-1.1.0.tgz",
-  "_spec": "1.1.0",
-  "_where": "/Users/apprunnback/Documents/Projects/dp6LibBaseHapi",
-  "author": "Marcelo Carranza <mcarranza@apprunn.com>",
-  "bugs": {
-    "url": "https://github.com/apprunn/dp6-lic-base-hapi/issues"
-  },
-  "dependencies": {
-    "catbox-redis": "4.1.0",
-    "glue": "5.0.0",
-    "hapi": "17.5.2",
-    "hapi-auth-bearer-token": "6.0.1",
-    "hapi-raven": "7.0.0"
-  },
-  "description": "A base hapi configuration for my new API projects",
-  "engines": {
-    "node": ">= 8.10.0",
-    "npm": ">= 6.1.0"
-  },
-  "homepage": "https://github.com/apprunn/dp6-lic-base-hapi#readme",
-  "keywords": [
-    "hapi",
-    "glue",
-    "boilerplate"
-  ],
-  "license": "MIT",
-  "main": "src/server.js",
-  "name": "dp6-lic-base-hapi",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/apprunn/dp6-lic-base-hapi.git"
-  },
-  "scripts": {
-    "test": "node src/server.test.js"
-  },
-  "version": "1.1.0"
+	"name": "dp6-lic-base-hapi",
+	"version": "1.1.0",
+	"description": "A base hapi configuration for my new API projects",
+	"main": "src/server.js",
+	"scripts": {
+		"test": "node src/server.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eperedo/base-hapi.git"
+	},
+	"keywords": [
+		"hapi",
+		"glue",
+		"boilerplate"
+	],
+	"author": "Eduardo Peredo Rivero <jrperedo@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/apprunn/dp6-lic-base-hapi/issues"
+	},
+	"homepage": "https://github.com/apprunn/dp6-lic-base-hapi#readme",
+	"dependencies": {
+		"catbox-redis": "4.2.2",
+		"glue": "5.0.0",
+		"hapi": "17.6.0",
+		"hapi-auth-bearer-token": "6.1.0",
+		"hapi-raven": "7.0.0"
+	},
+	"engines": {
+		"node": ">= 8.10.0",
+		"npm": ">= 6.1.0"
+	}
 }
