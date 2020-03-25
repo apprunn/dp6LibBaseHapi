@@ -2,7 +2,7 @@
   "_args": [
     [
       "dp6-lic-base-hapi@1.1.0",
-      "/Users/apprunnback/Documents/Projects/dp6ApiProducts"
+      "/Users/apprunnback/Documents/Projects/dp6LibBaseHapi"
     ]
   ],
   "_from": "dp6-lic-base-hapi@1.1.0",
@@ -26,11 +26,8 @@
   ],
   "_resolved": "https://registry.npmjs.org/dp6-lic-base-hapi/-/dp6-lic-base-hapi-1.1.0.tgz",
   "_spec": "1.1.0",
-  "_where": "/Users/apprunnback/Documents/Projects/dp6ApiProducts",
-  "author": {
-    "name": "Eduardo Peredo Rivero",
-    "email": "jrperedo@gmail.com"
-  },
+  "_where": "/Users/apprunnback/Documents/Projects/dp6LibBaseHapi",
+  "author": "Marcelo Carranza <mcarranza@apprunn.com>",
   "bugs": {
     "url": "https://github.com/apprunn/dp6-lic-base-hapi/issues"
   },
