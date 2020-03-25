@@ -1,5 +1,5 @@
 {
-	"name": "dp6-lic-base-hapi",
+	"name": "dp6-base-hapi",
 	"version": "1.1.0",
 	"description": "A base hapi configuration for my new API projects",
 	"main": "src/server.js",
@@ -15,8 +15,6 @@
 		"glue",
 		"boilerplate"
 	],
-	"author": "Eduardo Peredo Rivero <jrperedo@gmail.com>",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/apprunn/dp6-lic-base-hapi/issues"
 	},
