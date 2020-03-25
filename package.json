@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eperedo/base-hapi.git"
+		"url": "git+https://github.com/apprunn/dp6-lic-base-hapi.git"
 	},
 	"keywords": [
 		"hapi",
