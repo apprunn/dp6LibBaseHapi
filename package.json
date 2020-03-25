@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/apprunn/dp6LicBaseHapi.git"
+		"url": "git+https://github.com/apprunn/dp6LibBaseHapi.git"
 	},
 	"keywords": [
 		"hapi",
@@ -16,9 +16,9 @@
 		"boilerplate"
 	],
 	"bugs": {
-		"url": "https://github.com/apprunn/dp6LicBaseHapi/issues"
+		"url": "https://github.com/apprunn/dp6LibBaseHapi/issues"
 	},
-	"homepage": "https://github.com/apprunn/dp6LicBaseHapi#readme",
+	"homepage": "https://github.com/apprunn/dp6LibBaseHapi#readme",
 	"dependencies": {
 		"catbox-redis": "4.2.2",
 		"glue": "5.0.0",
