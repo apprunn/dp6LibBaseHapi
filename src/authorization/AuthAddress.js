@@ -1,6 +1,6 @@
 'use strict';
 
-async function authorizationAddress({ address }) {
+function authorizationAddress({ address }) {
     let requestAddress = [];
     if (address) {
         requestAddress = address.split('.');
