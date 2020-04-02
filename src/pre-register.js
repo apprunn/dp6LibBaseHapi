@@ -42,17 +42,16 @@ function createPreRegister(config) {
 						request.auth && request.auth.credentials
 							? request.auth && request.auth.credentials
 							: {};
-					if (request.route) {
-						const { path, method } = request.route;
-						const { address } = request.info;
-						const validAddress = AuthAddress({ address });
-						if (!validAddress) {
-							const authorization = AuthServices({ servicesPath, path, method });
-							return authorization ? request.response :
-								h.response({ message: 'Service not authorized for the role of this user' }).code(403);
-						}
-					}
-					return request.response;
+			if (request.route) {
+				const { path, method } = request.route;
+				const { address } = request.info;
+				const validAddress = AuthAddress({ address });
+				if (!validAddress) {
+					const authorization = AuthServices({ servicesPath, path, method });
+					return authorization ? request.response :
+						h.response({ message: 'Service not authorized for the role of this user' }).code(403);
+				}
+			}
 			return request.response;
 		});
 	};
