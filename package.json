@@ -25,7 +25,7 @@
 		"hapi": "17.6.0",
 		"hapi-auth-bearer-token": "6.1.0",
 		"hapi-raven": "7.0.0",
-		"handlebars": "4.7.6",
+		"handlebars": "4.7.7",
 		"vision": "5.4.4"
 	},
 	"engines": {
