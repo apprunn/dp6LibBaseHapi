@@ -35,12 +35,19 @@ function createPreRegister(config) {
 				request.response.isBoom &&
 				request.response.output.statusCode === 400
 			) {
+				const newOutPut = request.response.output;
+				if (newOutPut.payload.message && newOutPut.payload.message.indexOf(' ' < 0)) {
+					newOutPut.payload.messageError = getMessageError(newOutPut.payload.message);
+				}
+				if (request.response.data && request.response.data.details) {
+					newOutPut.payload.details = request.response.data.details;
+				}
 				server.plugins['hapi-raven'].client.captureException(request.response, {
 					extra: {
 						query: request.query,
 						payload: request.payload,
 						params: request.params,
-						response: request.response,
+						response: { ...request.response, output: newOutPut },
 					},
 					level: 'warning',
 					tags: {
