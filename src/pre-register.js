@@ -37,7 +37,10 @@ function createPreRegister(config) {
 			) {
 				const newOutPut = request.response.output;
 				if (newOutPut.payload.message && newOutPut.payload.message.indexOf(' ' < 0)) {
-					newOutPut.payload.messageError = getMessageError(newOutPut.payload.message);
+					newOutPut.payload.messageError = (
+						(config.errorMessages && errorMessages[newOutPut.payload.message]) ||
+						`Error en los datos enviados. Verifique la información del código de error ${newOutPut.payload.message} o comuníquese con soporte para su revisión.`
+					);
 				}
 				if (request.response.data && request.response.data.details) {
 					newOutPut.payload.details = request.response.data.details;
