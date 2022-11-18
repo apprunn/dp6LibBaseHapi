@@ -38,7 +38,7 @@ function createPreRegister(config) {
 				const newOutPut = request.response.output;
 				if (newOutPut.payload.message && newOutPut.payload.message.indexOf(' ' < 0)) {
 					newOutPut.payload.messageError = (
-						(config.errorMessages && errorMessages[newOutPut.payload.message]) ||
+						(config.errorMessages && config.errorMessages[newOutPut.payload.message]) ||
 						`Error en los datos enviados. Verifique la información del código de error ${newOutPut.payload.message} o comuníquese con soporte para su revisión.`
 					);
 				}
