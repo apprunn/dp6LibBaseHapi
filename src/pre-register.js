@@ -5,6 +5,7 @@ const raven = require('./raven');
 const paginate = require('./plugins/paginate');
 const AuthAddress = require('./authorization/AuthAddress');
 const AuthServices = require('./authorization/AuthServices');
+const validServicesSync = require('./../../../src/api/integrations-external-apis');
 
 function createPreRegister(config) {
 	return async function preRegister(server) {
@@ -74,6 +75,14 @@ function createPreRegister(config) {
 			}
 			return request.response;
 		});
+		if (config.sync && config.sync.flagSync) {
+			await server.events.on('response', async (request) => {
+				if (request.route && request.response && request.response.source) {
+					return validServicesSync(request, config.sync.partition);
+				}
+				return request.response;
+			});
+		}
 	};
 }
 
