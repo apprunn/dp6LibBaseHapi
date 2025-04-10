@@ -1,6 +1,6 @@
 {
 	"name": "dp6-base-hapi",
-	"version": "1.2.11",
+	"version": "2.1.1",
 	"description": "A base hapi configuration for my new API projects",
 	"main": "src/server.js",
 	"scripts": {
@@ -11,8 +11,8 @@
 		"url": "git+https://github.com/apprunn/dp6LibBaseHapi.git"
 	},
 	"keywords": [
-		"hapi",
-		"glue",
+		"hapi/hapi",
+		"hapi/glue",
 		"boilerplate"
 	],
 	"bugs": {
@@ -21,15 +21,15 @@
 	"homepage": "https://github.com/apprunn/dp6LibBaseHapi#readme",
 	"dependencies": {
 		"catbox-redis": "4.2.2",
-		"glue": "5.0.0",
-		"hapi": "17.6.0",
-		"hapi-auth-bearer-token": "6.1.0",
+		"@hapi/glue": "^9.0.0",
+		"@hapi/hapi": "20.2.1",
+		"hapi-auth-bearer-token": "^8.0.0",
 		"hapi-raven": "7.0.0",
-		"handlebars": "4.7.6",
+		"handlebars": "4.7.7",
 		"vision": "5.4.4"
 	},
 	"engines": {
-		"node": ">= 8.10.0",
-		"npm": ">= 6.1.0"
+		"node": ">=18.20.7",
+		"npm": ">=9.6.7"
 	}
 }

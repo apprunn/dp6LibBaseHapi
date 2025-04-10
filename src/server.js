@@ -1,6 +1,6 @@
 'use strict';
 
-const Glue = require('glue');
+const Glue = require('@hapi/glue');
 const manifest = require('./server-manifest');
 const preRegister = require('./pre-register');
 

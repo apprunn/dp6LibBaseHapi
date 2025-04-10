@@ -4,9 +4,9 @@
 
 ### Pre-Requisites
 
-1.  node 8.10 or greater
-2.  npm 6.1.0 or greater
-3.  redis 4.0 or greater
+1.  node 18.20 or greater
+2.  npm 9.6 or greater
+3.  redis 6.2 or greater
 
 ### Usage
 
