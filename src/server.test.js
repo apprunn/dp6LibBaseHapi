@@ -32,7 +32,7 @@ const glueConfig = require('./server');
 
 	const { result } = await server.inject({
 		url: '/private',
-		credentials: { id: 1 },
+		auth: { credentials: { id: 1 }, strategy: {} },
 	});
 
 	assert.equal(result, 1, 'The ID of the user must be ONE');
