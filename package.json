@@ -1,6 +1,6 @@
 {
 	"name": "dp6-base-hapi",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"description": "A base hapi configuration for my new API projects",
 	"main": "src/server.js",
 	"scripts": {
